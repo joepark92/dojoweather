@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* background-color: aquamarine; */
+}
+/* NAV BAR START */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+    padding: 0px 100px;
+    height: 60px;
+}
+a.navcity {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline;
+    padding-inline: 10px;
+}
+/* NAV BAR END */
+/* HEADER START */
+.header {
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.headertext {
+    padding: 0px 10px;
+}
+/* HEADER END */
+
+.mainbody {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 100px;
+}
+/* INDIVIDUAL WEATHER BOXES */
+.weatherbox {
+    height: 300px;
+    width: 160px;
+    background-color: rgb(240, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    padding: 10px 0px;
+}
+.weatherpic img {
+    height: 120px;
+    border-radius: 50%;
+}
+p.weatherdescrip {
+    padding: 10px 0px;
+}
+.temperaturenum {
+    width: 80%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.temphigh {
+    color: red;
+}
+.templow {
+    color: rgb(0, 119, 255);
+}
+/* COOKIES */
+#cookies {
+    position: fixed;
+    bottom: 50px;
+    width: 700px;
+    border: 3px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#cookies img {
+    height: 70px;
+    margin: 20px;
+    display: inline-block;
+}
+#cookies div {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+#cookies button {
+    margin: 20px;
+    width: 200px;
+    background-color: rgb(168, 196, 233);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
+p.cookieinfo {
+    font-size: 1.0rem;
+}
+h3.cookieheader {
+    padding: 0px;
+}

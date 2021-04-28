@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a class="navcity" href="#" onclick="alert('Loading Weather Report...')">Burbank</a></li>
+                <li><a class="navcity" href="#" onclick="alert('Loading Weather Report...')">Chicago</a></li>
+                <li><a class="navcity" href="#" onclick="alert('Loading Weather Report...')">Dallas</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <h2>San Jose</h2>
+            <div class="headerright">
+                <span class="headertext">show temperature in </span>
+                <select name="temperature" id="tempchange" onchange="temperatureChange(this)">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="weatherbox">
+                <h3>Today</h3>
+                <div class="weatherpic"><img src="./assets/some_rain.png" alt="rain clouds"></div>
+                <p class="weatherdescrip">some rain</p>
+                <div class="temperaturenum">
+                    <span class="temphigh">23.9°</span>
+                    <span class="templow">18.3°</span>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h3>Tomorrow</h3>
+                <div class="weatherpic"><img src="./assets/some_rain.png" alt="rain clouds"></div>
+                <p class="weatherdescrip">some rain</p>
+                <div class="temperaturenum">
+                    <span class="temphigh">23.9°</span>
+                    <span class="templow">18.3°</span>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h3>Today</h3>
+                <div class="weatherpic"><img src="./assets/some_rain.png" alt="rain clouds"></div>
+                <p class="weatherdescrip">some rain</p>
+                <div class="temperaturenum">
+                    <span class="temphigh">23.9°</span>
+                    <span class="templow">18.3°</span>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h3>Today</h3>
+                <div class="weatherpic"><img src="./assets/some_rain.png" alt="rain clouds"></div>
+                <p class="weatherdescrip">some rain</p>
+                <div class="temperaturenum">
+                    <span class="temphigh">23.9°</span>
+                    <span class="templow">18.3°</span>
+                </div>
+            </div>
+
+            <!-- COOKIES WINDOW -->
+
+            <div id="cookies">
+                <img src="assets/cookie.png" alt="annoying cookie">
+                <div>
+                    <h3 class="cookieheader">Stop! Cookie time</h3>
+                    <p class="cookieinfo">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="closeCookie()">I Accept</button>
+            </div>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
