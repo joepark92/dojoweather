@@ -39,6 +39,9 @@ li {
 .headertext {
     padding: 0px 10px;
 }
+#tempchange:hover {
+    cursor: pointer;
+}
 /* HEADER END */
 
 .mainbody {
@@ -104,7 +107,11 @@ p.weatherdescrip {
     width: 200px;
     background-color: rgb(168, 196, 233);
     border: 2px solid black;
-    box-shadow: 3px 3px;
+    box-shadow: 2px 2px;
+}
+#cookies button:hover {
+    cursor: pointer;
+    background-color: rgb(142, 166, 197);
 }
 p.cookieinfo {
     font-size: 1.0rem;
